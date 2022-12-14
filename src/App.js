@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Error from './Pages/Error';
 import Blogs from './Pages/Blogs';
+import Blog from './Pages/Blog';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/blogs' element={<Blogs />} />
+        <Route path='/blogs/:title' element={<Blog />} />
         <Route path='*' element={<Error />} />
       </Routes>
     </div>

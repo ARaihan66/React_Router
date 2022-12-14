@@ -1,4 +1,4 @@
-export const user = [
+export const Info = [
     {
         id: 1,
         title: 'HTML',
