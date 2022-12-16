@@ -11,6 +11,7 @@ import Blogs2 from './Pages/Blogs2';
 import Blog2 from './Pages/Blog2';
 import UseSearchParamsPage from './Pages/UseSearchParamsPage';
 
+
 function App() {
   return (
     <div className="App">
